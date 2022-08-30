@@ -210,6 +210,7 @@ h2 {
 /* ASIDE */
 .asideGrid {
     grid-column: 2/3;
+    height: 494px;
     background-color: rgb(6, 28, 59) ;
 }
 .asideGrid div p {
@@ -351,7 +352,7 @@ h2 {
         right:-1000px; */
     }
     .asideGrid {
-        height: 100px;
+        height:auto;
     }
     .menu-button-container {
         display: flex;
