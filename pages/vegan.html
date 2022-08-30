@@ -14,14 +14,20 @@
     
     
     <div class="containerGridPages">
-        <header class="headerGridPages bColor" >
-            <nav class="navMenu">
-                <a href="../index.html" class="navLogo">
-                    <img class="logo" src="../assets/logo-chef-3.png" alt="">
-                </a>
-                <ul>
+        <header class="headerGrid bColor" >
+            <section class="top-nav">
+                <div>
+                    <a href="../index.html">
+                        <img src="../assets/logo-chef-3.png" alt="" class="navImg">
+                    </a>
+                </div>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+              </label>
+                <ul class="menu">
                     <li>
-                        <a href="vegan.html">Vegana</a>
+                        <a href="#">Vegana</a>
                     </li>
                     <li>
                         <a href="Carne.html">Carne</a>
@@ -33,7 +39,10 @@
                         <a href="contacto.html">Contacto</a>
                     </li>
                 </ul>
-            </nav>
+              </section>
+            
+            <h2>Resize window to collapse menu</h2>
+             
         </header>
         <main class="mainPages">
             <h1>La mejor receta del dia!</h1>
