@@ -15,11 +15,17 @@
 
      <div class="containerGrid">
         <header class="headerGrid bColor" >
-            <nav class="navMenu">
-                <a href="" class="navLogo">
-                    <img class="logo" src="assets/logo-chef-3.png" alt="">
-                </a>
-                <ul>
+            <section class="top-nav">
+                <div>
+                    <a href="#">
+                        <img src="assets/logo-chef-3.png" alt="" class="navImg">
+                    </a>
+                </div>
+                <input id="menu-toggle" type="checkbox" />
+                <label class='menu-button-container' for="menu-toggle">
+                <div class='menu-button'></div>
+              </label>
+                <ul class="menu">
                     <li>
                         <a href="pages/vegan.html">Vegana</a>
                     </li>
@@ -33,7 +39,10 @@
                         <a href="pages/contacto.html">Contacto</a>
                     </li>
                 </ul>
-            </nav>
+              </section>
+            
+            <h2>Resize window to collapse menu</h2>
+             
         </header>
         <main class="mainGrid bColor" >
             <article class="showcase">
